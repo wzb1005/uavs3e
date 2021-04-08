@@ -9,6 +9,7 @@ extern "C" {
 #if defined(__GNUC__)
 #define __USE_GNU
 #include <sched.h>
+#include<bits/types/locale_t.h>
 #endif
 
 #include "uAVS3lib.h"
