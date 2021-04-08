@@ -8,6 +8,7 @@ extern "C" {
 
 #if defined(__GNUC__)
 #define __USE_GNU
+#include<bits/types/locale_t.h>
 #include <sched.h>
 #endif
 
